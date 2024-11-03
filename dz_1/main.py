@@ -1,9 +1,3 @@
-print("открыть дерь")
-answer = int(input("У вас: 1.автомат\п2. Механика"))
-print("заводим машину")
-if answer == 1:
-    print("Включаем drive")
-    print("нажимаем педаль газа трогаемся")
-else:
-    print("Выжимаем сцепление, включаем передачу")
-    print("трогаемся")
+diagonal1 = int(input("введnите первую диагональ:"))
+diagonal2 = int(input("введnите вторую диагональ:"))
+print((diagonal1 * diagonal2) //2)
